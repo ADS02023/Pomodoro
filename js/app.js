@@ -9,8 +9,8 @@ const bAdd = document.querySelector("#bAdd");
 const itTask = document.querySelector("#itTask");
 const form = document.querySelector("#form");
 
-//renderTasks();
-//renderTime();
+renderTasks();
+renderTime();
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
